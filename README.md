@@ -2,7 +2,7 @@
 
 Following the book: Flutter Apprentice by the raywenderlich Tutorial Team.
 
-<h2 align="center"><a href="">Flutter_Demo</a></h2>
+<h2 align="center"><a href="https://github.com/GM-Samuelstein/Flutter_Apprentice/tree/main/flutter_demo">Flutter_Demo</a></h2>
 <p>A Demo App! Why the hell not? Every great Flutter App starts with a simple counter App. Therefore, every Flutter beginner must learn how to create this simple app. 
 </p>
 
