@@ -28,5 +28,3 @@ right corner of the screen.</p>
 
 <hr />
 <h2 align="center"><a href="">FooderLich</a></h2>
-
-<h2>Personal Projects</h2>
