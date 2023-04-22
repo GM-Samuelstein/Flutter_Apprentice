@@ -54,11 +54,11 @@ class _RecipeDetailState extends State<RecipeDetail> {
                 },
               ),
             ),
+            Text('Servings: ${widget.recipe.servings * _sliderVal}'),
             Slider(
               min: 1,
               max: 10,
               divisions: 9,
-              label: '${_sliderVal * widget.recipe.servings} servings',
               value: _sliderVal.toDouble(),
               onChanged: (newValue) {
                 setState(() {
