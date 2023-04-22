@@ -18,7 +18,7 @@ class Recipe {
       4,
       [
         Ingredient(1, 'box', 'Spaghetti',),
-        Ingredient(4, '', 'Frozen Meatballs',),
+        Ingredient(4, 'pieces', 'Frozen Meatballs',),
         Ingredient(0.5, 'jar', 'sauce',),
       ],
     ),
