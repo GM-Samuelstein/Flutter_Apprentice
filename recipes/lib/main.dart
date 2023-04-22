@@ -15,6 +15,7 @@ class RecipeApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'Recipe Calculator',
+      debugShowCheckedModeBanner: false,
       theme: theme.copyWith(
         colorScheme: theme.colorScheme.copyWith(
           primary: Colors.grey,
@@ -36,8 +37,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       appBar: AppBar(
         title: Center(
@@ -48,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView.builder(
             itemCount: Recipe.samples.length,
             itemBuilder: (BuildContext context, int index) {
-              //TODO: Update to return Recipe card
+              //TODO: Add GestureDetector
               return buildRecipeCard(Recipe.samples[index]);
             }),
       ),
@@ -56,12 +59,30 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget buildRecipeCard(Recipe recipe) {
+
     return Card(
-      child: Column(
-        children: <Widget>[
-          Image(image: AssetImage(recipe.imageUrl),),
-          Text(recipe.label),
-        ],
+      elevation: 200.0,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(10.0),
+      ),
+      child: Padding(
+        padding:const EdgeInsets.all(10.0),
+        child: Column(
+          children: <Widget>[
+            Image(image: AssetImage(recipe.imageUrl)),
+            const SizedBox(
+              height: 14.0,
+            ),
+            Text(
+              recipe.label,
+              style: const TextStyle(
+                fontSize: 24.0,
+                fontWeight: FontWeight.w600,
+                fontFamily: 'Palatino',
+              ),
+              ),
+          ],
+        ),
       ),
     );
   }
