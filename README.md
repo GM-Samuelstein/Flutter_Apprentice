@@ -3,14 +3,11 @@
 Following the book: Flutter Apprentice by the raywenderlich Tutorial Team.
 
 <h2 align="center"><a href="https://github.com/GM-Samuelstein/Flutter_Apprentice/tree/main/flutter_demo">Flutter_Demo</a></h2>
-<p>A Demo App! Why the hell not? Every great Flutter App starts with a simple counter App. Therefore, every Flutter beginner must learn how to create this simple app. 
-</p>
+<p>A simple flutter Demo App.</p>
 
 <p>It is a single screen App that displays a line of text and a counter on the screen.
 The counter increments every time the user taps the 'increment' button in the bottom
 right corner of the screen.</p>
-
-<img src="flutter_demo/assets/Screenshot_1.png" /> <img src="flutter_demo/assets/Screenshot_2.png" />
 
 <h4>Widgets Used</h4>
 <ul>

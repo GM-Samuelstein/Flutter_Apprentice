@@ -1,16 +1,24 @@
-# flutter_demo
+<h1 align="center">Flutter Demo</h1>
 
-A new Flutter project.
+<p>A simple flutter Demo App.</p>
 
-## Getting Started
+<p>It is a single screen App that displays a line of text and a counter on the screen.
+The counter increments every time the user taps the 'increment' button in the bottom
+right corner of the screen.</p>
 
-This project is a starting point for a Flutter application.
+<h4>Widgets Used</h4>
+<ul>
+<li>MaterialApp</li>
+<li>ThemeData</li>
+<li>Scaffold</li>
+<li>AppBar</li>
+<li>Text</li>
+<li>Center</li>
+<li>Column</li>
+<li>FloatingActionButton</li>
+<li>Icons</li>
+</ul>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h2>Screenshots</h1>
+<img src="assets/Screenshot_1.png" width=400 height=600>
+<img src="assets/Screenshot_2.png" width=400 height=600>
