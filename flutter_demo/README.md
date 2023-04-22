@@ -6,7 +6,7 @@
 The counter increments every time the user taps the 'increment' button in the bottom
 right corner of the screen.</p>
 
-<h4>Widgets Used</h4>
+<h3>Widgets Used</h3>
 <ul>
 <li>MaterialApp</li>
 <li>ThemeData</li>
@@ -19,6 +19,8 @@ right corner of the screen.</p>
 <li>Icons</li>
 </ul>
 
-<h2>Screenshots</h1>
-<img src="assets/Screenshot_1.png" width=400 height=600>
-<img src="assets/Screenshot_2.png" width=400 height=600>
+<h3>Screenshots</h3>
+<div>
+<img src="assets/Screenshot_1.png" width=360 height=720>
+<img src="assets/Screenshot_2.png" width=360 height=720>
+</div>
