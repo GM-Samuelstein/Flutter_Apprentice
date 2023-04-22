@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'recipe.dart';
+
 void main() {
   runApp(const RecipeApp());
 }
@@ -38,11 +40,17 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Center(
+          child: Text(widget.title),
+        ),
       ),
       body: SafeArea(
-        // TODO: Replace child: Container()
-        child: Container(),
+        child: ListView.builder(
+            itemCount: Recipe.samples.length,
+            itemBuilder: (BuildContext context, int index) {
+              //TODO: Update to return Recipe card
+              return Text(Recipe.samples[index].label);
+            }),
       ),
     );
   }
