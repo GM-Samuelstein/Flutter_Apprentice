@@ -21,6 +21,6 @@ right corner of the screen.</p>
 
 <h3>Screenshots</h3>
 <div>
-<img src="assets/Screenshot_1.png" width=360 height=720>
-<img src="assets/Screenshot_2.png" width=360 height=720>
+<img src="assets/Screenshot_1.png" width=300 height=600>
+<img src="assets/Screenshot_2.png" width=300 height=600>
 </div>
