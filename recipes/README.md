@@ -1,16 +1,22 @@
-# recipes
+<h1 align="center">Recipe Calculator</h1>
+<p>An app that calculates the quantities of ingredients needed for a given recipe.</p>
 
-A new Flutter project.
+<p>The homepage of the app displays different recipe samples. The app is interactive and clicking on any recipe takes you to another page(Recipe Detail) that displays the sets of ingredients needed to make that particular recipe.</p>
 
-## Getting Started
+<p>At the bottom of the recipe detail page is the current number of servings. Adjusting the slider changes the number of servings and recalculates the amount of ingredients needed.</p>
 
-This project is a starting point for a Flutter application.
+<h2 align="center">Sreenshots.</h2>
 
-A few resources to get you started if this is your first Flutter project:
+<h4>Home page</h4>
+<div>
+<img src="assets/screenshots/homepage1.png" width=300 height=600 />
+<img src="assets/screenshots/homepage2.png" width=300 height=600 />
+<img src="assets/screenshots/homepage3.png" width=300 height=600 />
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h4>Recipe detail page</h4>
+<div>
+<img src="assets/screenshots" width=300 height=600 />
+<img src="assets/screenshots" width=300 height=600 />
+<img src="assets/screenshots" width=300 height=600 />
+</div>

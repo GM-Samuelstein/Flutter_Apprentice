@@ -10,6 +10,6 @@ right corner of the screen.</p>
 
 <h4>Home page</h4>
 <div>
-<img src="assets/Screenshot_1.png" width=280 height=1600 />
-<img src="assets/Screenshot_2.png" width=280 height=1600 />
+<img src="assets/Screenshot_1.png" width=300 height=600 />
+<img src="assets/Screenshot_2.png" width=300 height=600 />
 </div>
