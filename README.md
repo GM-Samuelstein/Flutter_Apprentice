@@ -10,6 +10,8 @@ Following the book: Flutter Apprentice by the raywenderlich Tutorial Team.
 The counter increments every time the user taps the 'increment' button in the bottom
 right corner of the screen.</p>
 
+<img src="flutter_demo/assets/Screenshot_1.png" /> <img src="flutter_demo/assets/Screenshot_2.png" />
+
 <h4>Widgets Used</h4>
 <ul>
 <li>MaterialApp</li>
