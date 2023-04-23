@@ -22,6 +22,7 @@ class RecipeApp extends StatelessWidget {
           primary: Colors.grey,
           secondary: Colors.black,
         ),
+        useMaterial3: true,
       ),
       home: const HomePage(title: 'Recipe Calculator'),
     );
