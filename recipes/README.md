@@ -9,9 +9,9 @@
 
 <h4>Home page</h4>
 <div>
-<img src="assets/screenshots/homepage1.png" width=300 height=600 />
-<img src="assets/screenshots/homepage2.png" width=300 height=600 />
-<img src="assets/screenshots/homepage3.png" width=300 height=600 />
+<div><img src="assets/screenshots/homepage1.png" width=240 height=500 /></div>
+<div><img src="assets/screenshots/homepage2.png" width=240 height=500 /></div>
+<div><img src="assets/screenshots/homepage3.png" width=240 height=500 /></div>
 </div>
 
 <h4>Recipe detail page</h4>
