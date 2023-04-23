@@ -16,10 +16,10 @@
 
 <h4>Recipe detail page</h4>
 <div>
-<img src="assets/screenshots/recipedetail1.png" width=300 height=600 />
-<img src="assets/screenshots/recipedetail2.png" width=300 height=600 />
-<img src="assets/screenshots/recipedetail3.png" width=300 height=600 />
-<img src="assets/screenshots/recipedetail4.png" width=300 height=600 />
-<img src="assets/screenshots/recipedetail5.png" width=300 height=600 />
-<img src="assets/screenshots/recipedetail6.png" width=300 height=600 />
+<img src="assets/screenshots/recipedetail1.png" width=240 height=500 />
+<img src="assets/screenshots/recipedetail2.png" width=240 height=500 />
+<img src="assets/screenshots/recipedetail3.png" width=240 height=500 />
+<img src="assets/screenshots/recipedetail4.png" width=240 height=500 />
+<img src="assets/screenshots/recipedetail5.png" width=240 height=500 />
+<img src="assets/screenshots/recipedetail6.png" width=240 height=500 />
 </div>
