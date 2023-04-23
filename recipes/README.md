@@ -8,7 +8,7 @@
 <h2 align="center">Sreenshots.</h2>
 
 <h4>Home page</h4>
-<div>
+<div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
 <div><img src="assets/screenshots/homepage1.png" width=240 height=500 /></div>
 <div><img src="assets/screenshots/homepage2.png" width=240 height=500 /></div>
 <div><img src="assets/screenshots/homepage3.png" width=240 height=500 /></div>
