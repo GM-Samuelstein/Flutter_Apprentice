@@ -78,6 +78,7 @@ class FooderlichTheme {
         selectedItemColor: Colors.green,
       ),
       textTheme: lightTextTheme,
+      useMaterial3: true,
     );
   }
 
@@ -100,6 +101,7 @@ class FooderlichTheme {
         selectedItemColor: Colors.green,
       ),
       textTheme: darkTextTheme,
+      useMaterial3: true,
     );
   }
 }
