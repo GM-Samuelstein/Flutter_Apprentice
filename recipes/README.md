@@ -9,9 +9,9 @@
 
 <h4>Home page</h4>
 <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
-<div><img src="assets/screenshots/homepage1.png" width=240 height=500 /></div>
-<div><img src="assets/screenshots/homepage2.png" width=240 height=500 /></div>
-<div><img src="assets/screenshots/homepage3.png" width=240 height=500 /></div>
+<img src="assets/screenshots/homepage1.png" width=240 height=500 />
+<img src="assets/screenshots/homepage2.png" width=240 height=500 />
+<img src="assets/screenshots/homepage3.png" width=240 height=500 />
 </div>
 
 <h4>Recipe detail page</h4>
