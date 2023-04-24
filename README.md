@@ -24,6 +24,6 @@ The counter increments every time the user taps the 'increment' button in the bo
 <h2 align="center">FooderLich</h2>
 <p>A social recipe app for keeping track of new dishes.<p>
 
-<p>The app has its own custom theme of light mode and dark mode. The app has a bottom navigation bar that navigates the screen between each of the three cards.</p>
+<p>The app has its own custom theme of light mode and dark mode. The app has a bottom navigation bar that navigates the screen between different cards.</p>
 
 <a href="https://github.com/GM-Samuelstein/Flutter_Apprentice/tree/main/fooderlich">See the project folder for screenshots!</a>
