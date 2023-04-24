@@ -20,6 +20,8 @@
 <img src="assets/screenshots/recipedetail1.png" width=220 height=460 />
 <img src="assets/screenshots/recipedetail2.png" width=220 height=460 />
 <img src="assets/screenshots/recipedetail3.png" width=220 height=460 />
+</div>
+<div>
 <img src="assets/screenshots/recipedetail4.png" width=220 height=460 />
 <img src="assets/screenshots/recipedetail5.png" width=220 height=460 />
 <img src="assets/screenshots/recipedetail6.png" width=220 height=460 />
