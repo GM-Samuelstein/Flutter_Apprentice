@@ -5,7 +5,7 @@
 
 <h2 align="center">Sreenshots.</h2>
 <h4>Dark Mode</h4>
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 200px;">
 <img src="assets/screenshots/card1_dark.png" width=220 height=460 />
 <img src="assets/screenshots/card2_dark.png" width=220 height=460 />
 <img src="assets/screenshots/card3_dark.png" width=220 height=460 />
