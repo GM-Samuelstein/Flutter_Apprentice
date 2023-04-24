@@ -21,11 +21,13 @@
 
 <hr />
 <h4>Card2 Favorite Snackbar</h4>
-<p>When the favorite button in card2 is clicked, a snackbar with a message is displayed at the bottom of the screen.</p>
+<p>When the favorite button in card2 is clicked, it toggles the favorite icon.</p>
 
 <div>
-<img src="assets/screenshots/card2_dark_favorite.png" width=220 height=460 />
-<img src="assets/screenshots/card2_light_favorite.png" width=220 height=460 />
+<img src="assets/screenshots/card2_dark_toggle_off.png" width=220 height=460 />
+<img src="assets/screenshots/card2_dark_toggle_on.png" width=220 height=460 />
+<img src="assets/screenshots/card2_light_toggle_off.png" width=220 height=460 />
+<img src="assets/screenshots/card2_light_toggle_on.png" width=220 height=460 />
 </div>
 
 <hr />
