@@ -14,6 +14,7 @@
 <img src="assets/screenshots/homepage3.png" width=220 height=460 />
 </div>
 
+<hr />
 <h4>Recipe detail page</h4>
 <div>
 <img src="assets/screenshots/recipedetail1.png" width=220 height=460 />
