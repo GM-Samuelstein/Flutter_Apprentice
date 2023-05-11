@@ -7,7 +7,7 @@
 <h4>Dark Mode</h4>
 <div>
 <img src="assets/screenshots/card1_dark.png" width=220 height=460 />
-<img src="assets/screenshots/card2_dark.png" width=220 height=460 />
+<img src="assets/screenshots/card2_dark_toggle_off.png" width=220 height=460 />
 <img src="assets/screenshots/card3_dark.png" width=220 height=460 />
 </div>
 
@@ -15,7 +15,7 @@
 <h4>Light Mode</h4>
 <div>
 <img src="assets/screenshots/card1_light.png" width=220 height=460 />
-<img src="assets/screenshots/card2_light.png" width=220 height=460 />
+<img src="assets/screenshots/card2_light_toggle_off.png" width=220 height=460 />
 <img src="assets/screenshots/card3_light.png" width=220 height=460 />
 </div>
 
