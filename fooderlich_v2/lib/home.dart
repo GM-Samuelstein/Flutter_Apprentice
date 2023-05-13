@@ -8,7 +8,21 @@ class Home extends StatefulWidget {
 }
 
 class HomeState extends State<Home> {
+  int _selectedIndex = 0;
 
+  static List<Widget> pages = <Widget>[
+    // TODO: Replace with ExploreScreen
+    Container(color: Colors.blue),
+    // TODO: Replace with RecipeScreen
+    Container(color: Colors.green),
+    Container(color: Colors.yellow),
+  ];
+
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +34,26 @@ class HomeState extends State<Home> {
           ),
         ),
       ),
-      body: Container(color: Colors.green),
+      body: pages[_selectedIndex],
+      bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Theme.of(context).textSelectionTheme.selectionColor,
+        currentIndex: _selectedIndex,
+        onTap: _onItemTapped,
+        items: const <BottomNavigationBarItem> [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.explore),
+            label: 'Explore',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.book),
+            label: 'Recipe',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.list),
+            label: 'To Buy',
+          ),
+        ],
+      ),
     );
   }
 }
