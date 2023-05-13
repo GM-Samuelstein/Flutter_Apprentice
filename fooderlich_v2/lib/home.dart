@@ -46,7 +46,7 @@ class HomeState extends State<Home> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.book),
-            label: 'Recipe',
+            label: 'Recipes',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.list),
