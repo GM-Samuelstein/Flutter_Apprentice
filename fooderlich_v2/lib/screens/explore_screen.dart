@@ -15,7 +15,6 @@ class ExploreScreen extends StatelessWidget {
       future: mockService.getExploreData(),
       builder: (content, AsyncSnapshot<ExploreData> snapshot) {
         if (snapshot.connectionState == ConnectionState.done) {
-          final recipes = snapshot.data?.todayRecipes ?? [];
           return ListView(
             scrollDirection: Axis.vertical,
             children: [
