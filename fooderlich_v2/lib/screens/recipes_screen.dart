@@ -16,9 +16,7 @@ class RecipeScreen extends StatelessWidget {
       builder: (context, AsyncSnapshot<List<SimpleRecipe>> snapshot) {
         if (snapshot.connectionState == ConnectionState.done) {
           // TODO: Add RecipeGridView here
-          return const Center(
-            child: Text('Recipes Screen'),
-          );
+          return RecipesGridView(recipes: snapshot.data ?? [],);
         } else {
           return const Center(child: CircularProgressIndicator(),);
         }
