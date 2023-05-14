@@ -28,16 +28,46 @@ class TodayRecipeListView extends StatelessWidget {
               style: Theme.of(context).textTheme.displayLarge,
             ),
           ),
-          const SizedBox(height: 16,),
+          const SizedBox(
+            height: 16,
+          ),
           Container(
             height: 400,
-            // TODO: Add ListView here
-            color: Colors.grey,
+            color: Colors.transparent,
+            child: ListView.separated(
+              scrollDirection: Axis.horizontal,
+              itemBuilder: (context, index) {
+                final recipe = recipes[index];
+                return buildCard(recipe);
+              },
+              separatorBuilder: (context, index) {
+                return const SizedBox(
+                  width: 16,
+                );
+              },
+              itemCount: recipes.length,
+            ),
           ),
         ],
       ),
     );
   }
 
-  // TODO: Add buildcard() widget here
+  Widget buildCard(ExploreRecipe recipe) {
+    if (recipe.cardType == RecipeCardType.card1) {
+      return Card1(
+        recipe: recipe,
+      );
+    } else if (recipe.cardType == RecipeCardType.card2) {
+      return Card2(
+        recipe: recipe,
+      );
+    } else if (recipe.cardType == RecipeCardType.card3) {
+      return Card3(
+        recipe: recipe,
+      );
+    } else {
+      throw Exception("This Card doesn't exist yet");
+    }
+  }
 }
