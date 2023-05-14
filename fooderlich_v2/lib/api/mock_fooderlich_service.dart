@@ -18,7 +18,7 @@ class MockFooderlichService {
   // Get sample explore recipes json to display in UI.
   Future<List<ExploreRecipe>> _getTodayRecipes() async {
     // Simulate API request wait time.
-    await Future.delayed(const Duration(milliseconds: 1000));
+    await Future.delayed(const Duration(milliseconds: 300));
     // Load json from file system.
     final jsonString =
       await _loadAsset('assets/sample_data/sample_explore_recipes.json');
@@ -28,8 +28,8 @@ class MockFooderlichService {
     // Go through each recipe and convert json to ExploreRecipe object.
     if (json['recipes'] != null) {
       final recipes = <ExploreRecipe>[];
-      json['recipes'].forEach((v) {
-        recipes.add(ExploreRecipe.fromJson(v));
+      json['recipes'].forEach((value) {
+        recipes.add(ExploreRecipe.fromJson(value));
       });
       return recipes;
     } else {
@@ -40,7 +40,7 @@ class MockFooderlichService {
   // Get the sample friend json posts to display in UI.
   Future<List<Post>> _getFriendFeed() async {
     // Simulate API request wait time.
-    await Future.delayed(const Duration(milliseconds: 1000));
+    await Future.delayed(const Duration(milliseconds: 300));
     // Load json from file system.
     final jsonString =
         await _loadAsset('assets/sample_data/sample_friends_feed.json');
@@ -50,8 +50,8 @@ class MockFooderlichService {
     // Go through each post and convert json to Post object.
     if (json['feed'] != null) {
       final posts = <Post>[];
-      json['feed'].forEach((v) {
-        posts.add(Post.fromJson(v));
+      json['feed'].forEach((value) {
+        posts.add(Post.fromJson(value));
       });
       return posts;
     } else {
@@ -62,7 +62,7 @@ class MockFooderlichService {
   // Get the sample recipe json to display in UI.
   Future<List<SimpleRecipe>> getRecipes() async {
     // Simulate API request wait time.
-    await Future.delayed(const Duration(milliseconds: 1000));
+    await Future.delayed(const Duration(milliseconds: 300));
     // Load json from file system.
     final jsonString =
         await _loadAsset('assets/sample_data/sample_recipes.json');
@@ -72,8 +72,8 @@ class MockFooderlichService {
     // Go through each recipe and convert to SimpleRecipe object.
     if (json['recipes'] != null) {
       final recipes = <SimpleRecipe>[];
-      json['recipes'].forEach((v) {
-        recipes.add(SimpleRecipe.fromJson(v));
+      json['recipes'].forEach((value) {
+        recipes.add(SimpleRecipe.fromJson(value));
       });
       return recipes;
     } else {
