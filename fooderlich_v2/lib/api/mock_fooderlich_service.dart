@@ -60,7 +60,7 @@ class MockFooderlichService {
   }
 
   // Get the sample recipe json to display in UI.
-  Future<List<SimpleRecipe>> getRecipe() async {
+  Future<List<SimpleRecipe>> getRecipes() async {
     // Simulate API request wait time.
     await Future.delayed(const Duration(milliseconds: 1000));
     // Load json from file system.
