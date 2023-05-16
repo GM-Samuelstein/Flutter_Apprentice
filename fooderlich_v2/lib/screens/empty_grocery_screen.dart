@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:fooderlich_v2/models/models.dart';
+import 'package:provider/provider.dart';
+
+import '../models/models.dart';
 
 class EmptyGroceryScreen extends StatelessWidget {
   const EmptyGroceryScreen({super.key});
@@ -12,16 +16,15 @@ class EmptyGroceryScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Flexible(
-              child: AspectRatio(
-                aspectRatio: 1 / 1,
-                child: Image.asset('assets/fooderlich_assets/empty_list.png'),
-                )
-              ),
+                child: AspectRatio(
+              aspectRatio: 1 / 1,
+              child: Image.asset('assets/fooderlich_assets/empty_list.png'),
+            )),
             Text(
               'No Groceries',
               style: Theme.of(context).textTheme.titleLarge,
-              ),
-            const SizedBox(height:16),
+            ),
+            const SizedBox(height: 16),
             const Text(
               'Shopping for ingredients?\n'
               'Tap the + button to write them down!',
@@ -34,10 +37,10 @@ class EmptyGroceryScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(30),
               ),
               onPressed: () {
-                // TODO: Go to Recipes tab
+                Provider.of<TabManager>(context, listen: false).goToRecipes();
               },
               child: const Text('Browse Recipes'),
-              ),
+            ),
           ],
         ),
       ),
