@@ -66,7 +66,7 @@ class GroceryItemScreenState extends State<GroceryItemScreen> {
       appBar: AppBar(
         actions: [
           IconButton(
-            onPressed: (){
+            onPressed: () {
               // TODO: Add callback handler
             },
             icon: const Icon(Icons.check),
@@ -84,7 +84,7 @@ class GroceryItemScreenState extends State<GroceryItemScreen> {
         padding: const EdgeInsets.all(16.0),
         child: ListView(
           children: [
-            // TODO: Add name TextField
+            buildNameField(),
             // TODO: Add Importance selection
             // TODO: Add date picker
             // TODO: Add time picker
@@ -97,7 +97,33 @@ class GroceryItemScreenState extends State<GroceryItemScreen> {
     );
   }
 
-  // TODO: Add buildNameFiled()
+  Widget buildNameField() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'Item Name',
+          style: GoogleFonts.lato(fontSize: 28.0),
+        ),
+        TextField(
+          controller: _nameController,
+          cursorColor: _currentColor,
+          decoration: InputDecoration(
+            hintText: 'E.g. Apples, Banana, 1 bag of salt',
+            enabledBorder: const UnderlineInputBorder(
+              borderSide: BorderSide(color: Colors.white),
+            ),
+            focusedBorder: UnderlineInputBorder(
+              borderSide: BorderSide(color: _currentColor),
+            ),
+            border: UnderlineInputBorder(
+              borderSide: BorderSide(color: _currentColor),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
 
   // TODO: Add buildImportanceField()
 
