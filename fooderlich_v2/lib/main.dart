@@ -1,22 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import 'fooderlich_theme.dart';
 import 'home.dart';
+import 'models/models.dart';
 
 void main() {
   runApp(const Fooderlich());
 }
 
 class Fooderlich extends StatelessWidget {
-  const Fooderlich({Key? key}) : super(key : key);
+  const Fooderlich({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: FooderlichTheme.dark(),
       title: 'Fooderlich',
-      // TODO: Replace with MultiProvider
-      home: const Home(),
+      home: MultiProvider(
+        providers: [
+          ChangeNotifierProvider(create: (context) => TabManager()),
+          // TODO: Add GroceryManger Provider
+        ],
+        child: const Home(),
+      ),
       debugShowCheckedModeBanner: false,
     );
   }
