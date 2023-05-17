@@ -98,8 +98,13 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text(
+              'GM-Samuelstein says HELLO!',
+              style: Theme.of(context).textTheme.titleLarge,
+            ),
+            const SizedBox(height: 100.0,),
             const Text(
-              'You have clicked the button this many times:',
+              'You have said Hi this many times:',
             ),
             Text(
               '$_counter',
