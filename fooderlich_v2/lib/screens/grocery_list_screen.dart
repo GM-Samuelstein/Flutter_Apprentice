@@ -20,33 +20,49 @@ class GroceryListScreen extends StatelessWidget {
         itemCount: groceryItems.length,
         itemBuilder: (context, index) {
           final item = groceryItems[index];
-          // TODO: Wrap in a Dismissable
-          // TODO: Wrap in an Inkwell
-          return InkWell(
-            child: GroceryTile(
-              key: Key(item.id),
-              item: item,
-              onComplete: (change) {
-                if (change != null) {
-                  manager.completedItem(index, change);
-                }
-              },
+          return Dismissible(
+            key: Key(item.id),
+            direction: DismissDirection.endToStart,
+            background: Container(
+              color: Colors.red,
+              alignment: Alignment.centerRight,
+              child: const Icon(
+                Icons.delete_forever,
+                color: Colors.white,
+                size: 50.0,
+              ),
             ),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) =>
-                    GroceryItemScreen(
+            onDismissed: (direction) {
+              manager.deleteItem(index);
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(content: Text('${item.name} dismissed'),),
+              );
+            },
+            child: InkWell(
+              child: GroceryTile(
+                key: Key(item.id),
+                item: item,
+                onComplete: (change) {
+                  if (change != null) {
+                    manager.completedItem(index, change);
+                  }
+                },
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => GroceryItemScreen(
                       originalItem: item,
                       onUpdate: (item) {
                         manager.updateItem(item, index);
                       },
                       onCreate: (item) {},
                     ),
-                ),
-              );
-            },
+                  ),
+                );
+              },
+            ),
           );
         },
         separatorBuilder: (context, index) {
