@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import 'fooderlich_theme.dart';
-import 'home.dart';
-import 'models/models.dart';
+import 'package:fooderlich_v2/fooderlich_theme.dart';
+import 'package:fooderlich_v2/models/models.dart';
+import 'package:fooderlich_v2/home.dart';
 
 void main() {
   runApp(const Fooderlich());

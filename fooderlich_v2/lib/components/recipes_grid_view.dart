@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../components/components.dart';
-import '../models/models.dart';
+import 'package:fooderlich_v2/components/components.dart';
+import 'package:fooderlich_v2/models/models.dart';
 
 class RecipesGridView extends StatelessWidget {
   const RecipesGridView({

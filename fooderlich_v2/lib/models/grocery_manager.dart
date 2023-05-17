@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'grocery_item.dart';
+import 'package:fooderlich_v2/models/models.dart';
 
 class GroceryManager extends ChangeNotifier {
   final _groceryItems = <GroceryItem>[];

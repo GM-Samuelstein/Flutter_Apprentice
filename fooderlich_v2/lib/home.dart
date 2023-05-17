@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import 'screens/explore_screen.dart';
-import 'screens/recipes_screen.dart';
-import 'screens/grocery_screen.dart';
-import 'models/models.dart';
+import 'package:fooderlich_v2/screens/screens.dart';
+import 'package:fooderlich_v2/models/models.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -14,7 +11,6 @@ class Home extends StatefulWidget {
 }
 
 class HomeState extends State<Home> {
-
   static List<Widget> pages = <Widget>[
     ExploreScreen(),
     RecipeScreen(),

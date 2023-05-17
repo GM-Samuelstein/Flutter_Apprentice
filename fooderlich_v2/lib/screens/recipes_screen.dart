@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-
-import '../models/models.dart';
-import '../api/mock_fooderlich_service.dart';
-import '../components/components.dart';
+import 'package:fooderlich_v2/models/models.dart';
+import 'package:fooderlich_v2/api/mock_fooderlich_service.dart';
+import 'package:fooderlich_v2/components/components.dart';
 
 class RecipeScreen extends StatelessWidget {
   RecipeScreen({super.key});

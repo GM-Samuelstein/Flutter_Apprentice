@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../models/models.dart';
+import 'package:fooderlich_v2/models/models.dart';
 
 class RecipeThumbnail extends StatelessWidget {
   const RecipeThumbnail({

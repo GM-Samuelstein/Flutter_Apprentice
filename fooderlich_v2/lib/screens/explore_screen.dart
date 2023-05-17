@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-
-import '../components/components.dart';
-import '../models/models.dart';
-import '../api/mock_fooderlich_service.dart';
+import 'package:fooderlich_v2/components/components.dart';
+import 'package:fooderlich_v2/models/models.dart';
+import 'package:fooderlich_v2/api/mock_fooderlich_service.dart';
 
 class ExploreScreen extends StatelessWidget {
   ExploreScreen({super.key});
@@ -19,7 +18,7 @@ class ExploreScreen extends StatelessWidget {
             scrollDirection: Axis.vertical,
             children: [
               TodayRecipeListView(recipes: snapshot.data?.todayRecipes ?? []),
-              const SizedBox(height:16),
+              const SizedBox(height: 16),
               FriendPostListView(friendPosts: snapshot.data?.friendPosts ?? []),
             ],
           );
