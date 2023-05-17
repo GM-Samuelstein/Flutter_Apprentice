@@ -5,6 +5,7 @@ import 'package:intl/intl.dart';
 import 'package:uuid/uuid.dart';
 
 import '../models/models.dart';
+import '../components/components.dart';
 
 class GroceryItemScreen extends StatefulWidget {
   const GroceryItemScreen({
@@ -91,7 +92,22 @@ class GroceryItemScreenState extends State<GroceryItemScreen> {
             buildColorPicker(context),
             const SizedBox(height: 10.0),
             buildQuantityField(),
-            // TODO: Add Grocery Tile
+            GroceryTile(
+              item: GroceryItem(
+                id: 'PreviewMode', 
+                name: _name, 
+                importance: _importance, 
+                color: _currentColor, 
+                quantity: _currentSliderValue, 
+                date: DateTime(
+                  _dueDate.year,
+                  _dueDate.month,
+                  _dueDate.day,
+                  _timeOfDay.hour,
+                  _timeOfDay.minute,
+                ),
+              ),
+            ),
           ],
         ),
       ),
