@@ -1,4 +1,4 @@
-<h1 align="center">Recipe Calculator</h1>
+<h1 align="center">Recipes</h1>
 <p>An app that calculates the quantities of ingredients needed for a given recipe.</p>
 
 <p>The homepage of the app displays different recipe-samples. The app is interactive and clicking on any recipe-sample takes you to another page(Recipe-Detail) that displays the sets of ingredients needed to make that particular recipe-sample.</p>

@@ -12,7 +12,7 @@ class RecipeApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final ThemeData theme = ThemeData();
+    final ThemeData theme = ThemeData.dark();
 
     return MaterialApp(
       title: 'Recipe Calculator',
