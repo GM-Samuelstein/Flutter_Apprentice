@@ -38,3 +38,8 @@
 <img src="assets/screenshots/card3_dark_alarm.png" width=220 height=460 />
 <img src="assets/screenshots/card3_light_alarm.png" width=220 height=460 />
 </div>
+
+<h2>Demonstration</h2>
+
+https://github.com/GM-Samuelstein/Flutter_Apprentice/assets/104820502/d2024f55-77ea-42f6-a957-847275283db1
+
