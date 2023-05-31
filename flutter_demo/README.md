@@ -13,7 +13,7 @@ The counter increments every time the user taps the 'increment' button in the bo
 <img src="assets/Screenshot_2.png" width=220 height=460 />
 </div>
 
-<h2>Demonstration</h2>
+<h2 align="center">Demonstration</h2>
 
 https://github.com/GM-Samuelstein/Flutter_Apprentice/assets/104820502/7474bdf7-5b95-4eca-9065-a28e968fc061
 
