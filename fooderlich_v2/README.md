@@ -1,16 +1,9 @@
-# fooderlich_v2
+<h1 align="center">Fooderlich_v2</h1>
+<p>Version 2 of the fooderlich App, a social recipe app for keeping track of new dishes.<p>
 
-A new Flutter project.
+<p>The app has three screens: The Explore Screen, The Recipes Screen and The Grocery Screen</p>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<h2>Demonstration</h2>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
