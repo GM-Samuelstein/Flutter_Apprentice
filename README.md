@@ -32,6 +32,6 @@ The counter increments every time the user taps the 'increment' button in the bo
 <h2 align="center">FooderLich_V2</h2>
 <p>Version 2 of the fooderlich App, a social recipe app for keeping track of new dishes.<p>
 
-<p>The app has three screens: The Explore Screen, The Recipes Screen and The Grocery Screen</p>
+<p>The app has three screens: The Explore Screen, The Recipes Screen and The Grocery Screen.</p>
 
 <a href="https://github.com/GM-Samuelstein/Flutter_Apprentice/tree/main/fooderlich_v2">See the project folder for the demonstration!</a>
