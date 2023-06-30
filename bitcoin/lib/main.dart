@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: "Bitcoin",
       theme: ThemeData.dark(useMaterial3: true),
       home: const PriceScreen(),
     );

@@ -98,7 +98,7 @@ class _PriceScreenState extends State<PriceScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text('🤑 Coin Ticker')),
+        title: const Center(child: Text('Coin Calculator')),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -109,7 +109,8 @@ class _PriceScreenState extends State<PriceScreen> {
             height: 150.0,
             alignment: Alignment.center,
             padding: const EdgeInsets.only(bottom: 30.0),
-            color: Colors.lightBlue,
+            // color: Colors.lightBlue,
+            color: Colors.teal,
             child: Platform.isIOS ? iOSPicker() : androidDropdown(),
           ),
         ],
@@ -135,7 +136,7 @@ class CryptoCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.fromLTRB(18.0, 18.0, 18.0, 0),
       child: Card(
-        color: Colors.lightBlueAccent,
+        color: Colors.teal,
         elevation: 5.0,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10.0),
