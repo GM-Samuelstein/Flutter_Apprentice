@@ -19,7 +19,7 @@ class FooderlichTheme {
       color: Colors.black,
     ),
     displaySmall: GoogleFonts.openSans(
-      fontSize: 16.0,
+      fontSize: 12.0,
       fontWeight: FontWeight.w600,
       color: Colors.black,
     ),
@@ -47,7 +47,7 @@ class FooderlichTheme {
       color: Colors.white,
     ),
     displaySmall: GoogleFonts.openSans(
-      fontSize: 16.0,
+      fontSize: 12.0,
       fontWeight: FontWeight.w600,
       color: Colors.white,
     ),
